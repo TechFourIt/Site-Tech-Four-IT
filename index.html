@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111996520-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-111996520-2');
+    </script>
+    <meta charset="utf-8">
+    <title>Tech Fout It</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Criação de administração de sites" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Techfourit" />
+    <link rel="stylesheet" href="Estilo/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|IBM+Plex+Serif:400,700,700i|Lateef|Lato" rel="stylesheet">
+    <link rel="icon" href=".../icon.png" />
+
+
+</head>
+
+<body>
+    <header class="cabecalho container" id="home">
+        <a href="indexcafe.html"></a> <h1 class="logo">Tech Four</h1>
+        <button class="btn-menu"><i class="fas fa-align-justify fa-lg"></i></button>
+        <nav class="menu">
+           <a class="btn-close"><i class="fas fa-times"></i></a>
+        <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+        </nav>
+    </header>    
+        <div class="banner container">
+            <div class="title">
+            <h3>"Desenvolvimento e gerenciamento de páginas Web,</h3>
+            <h3>e redes socias."</h3>
+            </div>       
+        <div class="buttons">
+            <button class="btn-sobre">Contato</button>
+        </div>          
+       </div>
+    <main class="servicos container" id="servicos">
+        <article class="servico">
+            <a href="#"><img src="imagens/developer-3461405_1920.png" alt="Criação de Sites"></a>
+            <div class="inner">
+                <a href="#"> Criação de Sites</a>
+                <h4>Desenvolvimento de Sites</h4>                
+                <p>Criamos sites 100% resposnsivos, com interfaces e usabilidades para acesso em dispositovos móveis e desktops</p>
+            </div>
+          </article>    
+          <article class="servico container">
+            <a href="#"><img src="imagens/criacao.jpg" alt="Marketing Digital"></a>
+            <div class="inner">
+                <a href="#"> Marketing Digital</a>
+                <h4>Administração de Redes Sociais</h4>                   
+                    <p>Como agência de publicidade aplicamos estratégias nos meios digitais para que seu negócio seja visto  por milhões de usuários. O Brasil é o quinto país mais conectado no mundo. Por este motivo, o seu negócio não pode ficar de fora do mercado digital</p>
+            </div>
+          </article>     
+    </main>
+    
+<!-- RODAPÉ -->    
+<footer class="rodape container" id="contato">
+          <div class="social-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+               <p class="copyright">
+               Copyright TechFourIt 2018. Todos os direitos reservados.
+               </p>
+        </footer>
+	
+  <!--JavaScript at end of body for optimized loading-->
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+  <script>
+     $(".btn-menu") .click(function(){
+         $(".menu").show();
+     });
+       $(".btn-close") .click(function(){
+         $(".menu").hide();
+     });
+  </script>
+   
+    
+</body>
+
+</html>

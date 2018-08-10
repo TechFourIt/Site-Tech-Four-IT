@@ -38,12 +38,13 @@ padding: 20px;
 .buttons {width: 100%; margin-top: 3%;}
 .buttons i {float: right;}
 .btn-sobre {width: 5em; font-size: 1em; text-align: left; cursor: pointer; padding:2%; margin: 2%; border-radius: 6px;background-color: #009933; color: #fff; text-align: center; margin-top: 3%;}
+
 /*RODAPÉ*/
 .rodape {background: black;}
 .social-icons a {font-size: 3em; color: rgba(255, 255,255, 0.5); margin-right: 3%;}
 .social-icons a:last-child{margin-right: 0;}
 .social-icons a:hover {color: rgba(255, 255,255);}
-.copyright {margin-top: 2%; color: rgba(255,255,255);}
+.copyright {margin-top: 2%; color:white;}
 
 /* SERVIÇOS */
 
@@ -63,6 +64,7 @@ padding: 20px;
     .title {width: 70%; float: left; text-align: left;}
     .tile h2 {font-size: 4em;}
     .tile h2 {font-size: 3em;}
+    .rodape {background:#009933;}
     
 }
 /*TABLETS*/

@@ -24,7 +24,7 @@ img {max-width: 100%}
 .banner {
 background:url(../imagens/home-office-336378_1920.jpg);
 background-size:cover ;
-margin-top: none;
+margin-top: 20px;
 background-repeat: no-repeat;
 display: flex;
 flex-direction: column;
